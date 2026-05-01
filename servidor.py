@@ -89,7 +89,8 @@ def login():
 @app.route("/tareas", methods=["GET"])
 def tareas():
     return """
-    ¡ACCESO CORRECTO! Bienvenido al sistema de tareas
+    <h1>Bienvenido al sistema de tareas</h1>
+    <p>Login exitoso. Aquí podrías ver tus tareas.</p>
     """
 
 
