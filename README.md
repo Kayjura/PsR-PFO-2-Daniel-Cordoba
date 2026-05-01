@@ -121,7 +121,7 @@ Luego se mostrará la página de tareas.
 Después del login, el sistema mostrará:
 
 ```
-Bienvenido al sistema de tareas
+¡ACCESO CORRECTO! Bienvenido al sistema de tareas
 ```
 
 (Actualmente es una vista HTML simple de prueba)
@@ -196,6 +196,20 @@ Devuelve una página HTML de bienvenida.
 5. Acceder a tareas
 
 
-## Autor
+---
 
-Trabajo práctico - API Flask + SQLite
+## Capturas de pruebas
+## Terminal cliente.py
+
+
+
+## Terminal servidor.py
+
+
+---
+
+## Información académica
+
+**Instituto de Formación Técnica Superior N° 29**  
+Tecnicatura Superior en Desarrollo de Software - Daniel Cordoba - 3°A - 
+**Año 2026**
