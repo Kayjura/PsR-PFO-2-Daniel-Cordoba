@@ -212,12 +212,13 @@ Devuelve una página HTML de bienvenida.
 Registro incompleto y registro completo:
 <img width="886" height="451" alt="image" src="https://github.com/user-attachments/assets/27a5115a-7db4-4a34-94ea-a33a0ca5d8f4" />
 
-Ingreso incorrecto (sin clave), ingreso correcto e ingreso incorrecto (clave errónea):
-<img width="656" height="739" alt="image" src="https://github.com/user-attachments/assets/9377abc8-583f-4158-9766-ab85fd3f839f" />
+Ingreso incorrecto (clave incorrecta), ingreso incorrecto (falta de usuario), ingreso incorrecto (falta de ambas credenciales) e ingreso correcto con html de bienvenida:
+<img width="886" height="785" alt="image" src="https://github.com/user-attachments/assets/89a6368d-ca5d-4f05-a89a-7ac1d87f882c" />
 
 
-## Pruebas en terminal servidor.py
-<img width="886" height="448" alt="image" src="https://github.com/user-attachments/assets/900e3ee9-2d92-4ef5-9bf2-6f9cc8a12cb9" />
+## Pruebas en terminal servidor.py (desde vista servidor)
+
+<img width="992" height="412" alt="image" src="https://github.com/user-attachments/assets/b6c9bd28-b10c-44b4-a359-5cd6666f3ab0" />
 
 ---
 
