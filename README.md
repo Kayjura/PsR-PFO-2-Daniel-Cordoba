@@ -116,6 +116,7 @@ Luego se mostrará la página de tareas.
 
 ---
 
+
 ## Visualización de tareas
 
 Después del login, el sistema mostrará:
@@ -127,6 +128,7 @@ Después del login, el sistema mostrará:
 (Actualmente es una vista HTML simple de prueba)
 
 ---
+
 
 ## Endpoints disponibles
 
@@ -160,6 +162,7 @@ Devuelve una página HTML de bienvenida.
 
 ---
 
+
 ## Posibles errores comunes
 
 * "El usuario ya existe" → intentar con otro nombre
@@ -167,6 +170,7 @@ Devuelve una página HTML de bienvenida.
 * Error de conexión → verificar que el servidor esté corriendo
 
 ---
+
 
 ## Estructura del proyecto
 
@@ -195,16 +199,40 @@ Devuelve una página HTML de bienvenida.
 4. Iniciar sesión
 5. Acceder a tareas
 
-
 ---
 
+
 ## Capturas de pruebas
-## Terminal cliente.py
 
+## Inicializaciones de cliente.py y servidor.py
 
+<img width="886" height="206" alt="image" src="https://github.com/user-attachments/assets/fda79357-3a7f-4d78-89a9-a7a0ac0cd2ea" />
+<img width="886" height="331" alt="image" src="https://github.com/user-attachments/assets/9a6d6a2b-dfda-498c-9218-a3a966de005c" />
+
+## Pruebas en terminal cliente.py
+
+Registro incompleto y registro completo:
+<img width="886" height="451" alt="image" src="https://github.com/user-attachments/assets/27a5115a-7db4-4a34-94ea-a33a0ca5d8f4" />
+
+Ingreso incorrecto (sin clave), ingreso correcto e ingreso incorrecto (clave errónea):
+<img width="656" height="739" alt="image" src="https://github.com/user-attachments/assets/9377abc8-583f-4158-9766-ab85fd3f839f" />
 
 ## Terminal servidor.py
+<img width="886" height="448" alt="image" src="https://github.com/user-attachments/assets/900e3ee9-2d92-4ef5-9bf2-6f9cc8a12cb9" />
 
+
+## Respuesta conceptual: ¿Por qué hashear contraseñas?
+
+Las contraseñas se hashean para proteger la información del usuario. Si la base de datos es comprometida, las contraseñas no quedan expuestas en texto plano.
+El hash es irreversible, lo que significa que no se puede recuperar la contraseña original. Esto aumenta significativamente la seguridad del sistema.
+
+
+## Ventajas de usar SQLite en este proyecto
+•	No requiere instalación de servidor 
+•	Es liviano y fácil de usar 
+•	Ideal para proyectos pequeños o educativos 
+•	Permite persistencia real de datos 
+•	Se integra fácilmente con Python
 
 ---
 
