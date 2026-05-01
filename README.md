@@ -105,7 +105,6 @@ Usuario registrado correctamente
 ```
 ---
 
-
 ## Login
 
 Elegir opción 2 e ingresar credenciales.
@@ -119,7 +118,6 @@ Login exitoso
 Luego se mostrará la página de tareas.
 
 ---
-
 
 ## Visualización de tareas
 
@@ -146,7 +144,6 @@ Registra un nuevo usuario
 }
 ```
 
-
 ## POST /login
 
 Autentica un usuario
@@ -159,13 +156,11 @@ Autentica un usuario
 ```
 ---
 
-
 ## GET /tareas
 
 Devuelve una página HTML de bienvenida.
 
 ---
-
 
 ## Posibles errores comunes
 
@@ -174,7 +169,6 @@ Devuelve una página HTML de bienvenida.
 * Error de conexión → verificar que el servidor esté corriendo
 
 ---
-
 
 ## Estructura del proyecto
 
@@ -205,7 +199,6 @@ Devuelve una página HTML de bienvenida.
 
 ---
 
-
 ## Capturas de pruebas
 
 ## Inicializaciones de cliente.py y servidor.py
@@ -228,14 +221,12 @@ Ingreso incorrecto (sin clave), ingreso correcto e ingreso incorrecto (clave err
 
 ---
 
-
 ## Respuesta conceptual: ¿Por qué hashear contraseñas?
 
 Las contraseñas se hashean para proteger la información del usuario. Si la base de datos es comprometida, las contraseñas no quedan expuestas en texto plano.
 El hash es irreversible, lo que significa que no se puede recuperar la contraseña original. Esto aumenta significativamente la seguridad del sistema.
 
 ---
-
 
 ## Ventajas de usar SQLite en este proyecto
 •	No requiere instalación de servidor 
@@ -245,7 +236,6 @@ El hash es irreversible, lo que significa que no se puede recuperar la contrase�
 •	Se integra fácilmente con Python
 
 ---
-
 
 ## Información académica
 
