@@ -216,7 +216,7 @@ Ingreso incorrecto (sin clave), ingreso correcto e ingreso incorrecto (clave err
 <img width="656" height="739" alt="image" src="https://github.com/user-attachments/assets/9377abc8-583f-4158-9766-ab85fd3f839f" />
 
 
-## Terminal servidor.py
+## Pruebas en terminal servidor.py
 <img width="886" height="448" alt="image" src="https://github.com/user-attachments/assets/900e3ee9-2d92-4ef5-9bf2-6f9cc8a12cb9" />
 
 ---
