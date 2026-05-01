@@ -71,8 +71,6 @@ El servidor se ejecutará en:
 http://127.0.0.1:5000
 ```
 
----
-
 ## 2. Ejecutar el cliente
 
 En otra terminal (sin cerrar el servidor):
@@ -80,8 +78,6 @@ En otra terminal (sin cerrar el servidor):
 ```bash
 python cliente.py
 ```
-
----
 
 ##  Uso del sistema
 
