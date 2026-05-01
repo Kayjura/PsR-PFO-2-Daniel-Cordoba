@@ -2,6 +2,7 @@
 
 Este proyecto implementa una API REST con autenticación básica y persistencia en base de datos SQLite.
 
+---
 
 ## Tecnologías utilizadas
 
@@ -11,6 +12,7 @@ Este proyecto implementa una API REST con autenticación básica y persistencia 
 - Requests (cliente)
 - Werkzeug (hash de contraseñas)
 
+---
 
 ## Requisitos previos
 
@@ -19,6 +21,7 @@ Antes de ejecutar el proyecto, asegurate de tener instalado:
 * Python 3.x
 * pip (gestor de paquetes)
 
+---
 
 ## Instalación
 
@@ -50,6 +53,7 @@ source venv/bin/activate
 pip install flask requests werkzeug
 ```
 
+---
 
 ## Ejecución del proyecto
 
@@ -67,6 +71,7 @@ El servidor se ejecutará en:
 http://127.0.0.1:5000
 ```
 
+---
 
 ## 2. Ejecutar el cliente
 
@@ -76,6 +81,7 @@ En otra terminal (sin cerrar el servidor):
 python cliente.py
 ```
 
+---
 
 ##  Uso del sistema
 
@@ -87,6 +93,7 @@ Al ejecutar el cliente, verás un menú:
 3. Salir
 ```
 
+---
 
 ## Registro de usuario
 
@@ -100,6 +107,7 @@ Resultado esperado:
 ```
 Usuario registrado correctamente
 ```
+---
 
 
 ## Login
@@ -129,7 +137,6 @@ Después del login, el sistema mostrará:
 
 ---
 
-
 ## Endpoints disponibles
 
 ## POST /registro
@@ -154,6 +161,7 @@ Autentica un usuario
   "contraseña": "1234"
 }
 ```
+---
 
 
 ## GET /tareas
@@ -183,13 +191,13 @@ Devuelve una página HTML de bienvenida.
 └── README.md
 ```
 
-
 ## Notas importantes
 
 * Las contraseñas se almacenan de forma segura (hasheadas)
 * La base de datos se crea automáticamente al ejecutar el servidor
 * No es necesario instalar SQLite manualmente
 
+---
 
 ## Flujo típico de uso
 
@@ -209,6 +217,7 @@ Devuelve una página HTML de bienvenida.
 <img width="886" height="206" alt="image" src="https://github.com/user-attachments/assets/fda79357-3a7f-4d78-89a9-a7a0ac0cd2ea" />
 <img width="886" height="331" alt="image" src="https://github.com/user-attachments/assets/9a6d6a2b-dfda-498c-9218-a3a966de005c" />
 
+
 ## Pruebas en terminal cliente.py
 
 Registro incompleto y registro completo:
@@ -217,14 +226,19 @@ Registro incompleto y registro completo:
 Ingreso incorrecto (sin clave), ingreso correcto e ingreso incorrecto (clave errónea):
 <img width="656" height="739" alt="image" src="https://github.com/user-attachments/assets/9377abc8-583f-4158-9766-ab85fd3f839f" />
 
+
 ## Terminal servidor.py
 <img width="886" height="448" alt="image" src="https://github.com/user-attachments/assets/900e3ee9-2d92-4ef5-9bf2-6f9cc8a12cb9" />
+
+---
 
 
 ## Respuesta conceptual: ¿Por qué hashear contraseñas?
 
 Las contraseñas se hashean para proteger la información del usuario. Si la base de datos es comprometida, las contraseñas no quedan expuestas en texto plano.
 El hash es irreversible, lo que significa que no se puede recuperar la contraseña original. Esto aumenta significativamente la seguridad del sistema.
+
+---
 
 
 ## Ventajas de usar SQLite en este proyecto
@@ -235,6 +249,7 @@ El hash es irreversible, lo que significa que no se puede recuperar la contrase�
 •	Se integra fácilmente con Python
 
 ---
+
 
 ## Información académica
 
