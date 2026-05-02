@@ -6,9 +6,8 @@ app = Flask(__name__)
 DB = "usuarios.db"
 
 
-# =========================
 # Inicializar base de datos
-# =========================
+
 def init_db():
     conn = sqlite3.connect(DB)
     cursor = conn.cursor()
@@ -28,9 +27,8 @@ def init_db():
 init_db()
 
 
-# =========================
 # Registro
-# =========================
+
 @app.route("/registro", methods=["POST"])
 def registro():
     data = request.json
@@ -60,9 +58,8 @@ def registro():
         return jsonify({"Error": "El usuario ya existe"}), 400
 
 
-# =========================
 # Login
-# =========================
+
 @app.route("/login", methods=["POST"])
 def login():
     data = request.json
@@ -83,9 +80,8 @@ def login():
         return jsonify({"Error": "Credenciales inválidas"}), 401
 
 
-# =========================
 # Tareas (simple)
-# =========================
+
 @app.route("/tareas", methods=["GET"])
 def tareas():
     return """
